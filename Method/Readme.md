@@ -28,7 +28,7 @@ private Rigidbody playerRigidbody;   // 불가능합니다. 기본적으로 priv
 
 
 ## Input 
-Input.GetKey()는 키코드를 매개변수로 넘겨주면 그게 맞는 bool값을 반환합니다.
+Input.GetKey()는 키코드를 매개변수로 넘겨주면 그에 맞는 bool값을 반환합니다.
 키코드는 유니티에서 제공하는 Keycode enumclass 입니다.
 ```C#
 if(Input.GetKey(KeyCode.UpArrow) == true)
